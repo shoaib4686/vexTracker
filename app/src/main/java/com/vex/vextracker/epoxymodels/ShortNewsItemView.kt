@@ -28,6 +28,7 @@ class ShortNewsItemView @JvmOverloads constructor(
         View.inflate(context, R.layout.dashboard_news_module, this)
         pbLoading = findViewById(R.id.pbLoading)
         tvNewsTitle = findViewById(R.id.tvNewsTitle)
+        tvNewsTitle.isSelected = true
         clNewsArticleContainer = findViewById(R.id.clNewsArticleContainer)
     }
 
